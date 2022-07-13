@@ -1,0 +1,49 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(20, 30, 37);
+   color: white;
+   gap: 16px;
+   height: 100vh;
+   font-family: 'Roboto', sans-serif;
+   user-select: none;
+}
+
+#title {
+   color: lightskyblue;
+   text-align: center;
+   margin-top: 36px;
+   font-size: 48px;
+}
+
+footer {
+   margin-top: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+}
+
+.fa-github {
+   color: white;
+   font-size: 24px;
+   transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+   transform: rotate(360deg) scale(1.2);
+}
+
+#grid {
+   display: grid;
+   width: 600px;
+   height: 600px;
+   background-color: rgb(49, 52, 58);
+}
+
+.grid-item {
+   user-select: none;
+}
